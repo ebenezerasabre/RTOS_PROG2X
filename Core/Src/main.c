@@ -608,10 +608,6 @@ void StartTask1(void *argument){
 		}
 
 
-
-
-//		HAL_UART_Transmit(&huart2, (uint8_t *)txBuf, strlen(txBuf), HAL_MAX_DELAY);
-
 //		HAL_UART_Transmit(&huart2, (uint8_t *)msg, strlen(msg), HAL_MAX_DELAY);
 		osDelay(50);
 	}
